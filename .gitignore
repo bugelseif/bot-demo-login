@@ -5,3 +5,10 @@ __pycache__/
 # Ambiente virtual
 venv/
 env/
+
+# Geckodriver
+geckodriver.log
+geckodriver*
+
+# Arquivos de log
+*.log
