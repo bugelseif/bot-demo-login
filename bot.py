@@ -15,7 +15,7 @@ def main():
     bot = WebBot()
 
     # Configurações do navegador
-    bot.headless = False
+    bot.headless = True
     bot.browser = Browser.FIREFOX
     bot.driver_path = GeckoDriverManager().install()
 
